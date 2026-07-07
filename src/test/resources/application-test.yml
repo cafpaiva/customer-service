@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    url: jdbc:h2:mem:customerdb;MODE=PostgreSQL
+    username: sa
+    password: ""
+  jpa:
+    hibernate:
+      ddl-auto: none
+  flyway:
+    enabled: true
